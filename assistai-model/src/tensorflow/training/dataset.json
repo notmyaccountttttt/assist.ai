@@ -1,0 +1,50 @@
+[
+    {
+        "text": "search for latest news about AI",
+        "intent": "search"
+    },
+    {
+        "text": "find information about climate change",
+        "intent": "search"
+    },
+    {
+        "text": "write a python function to sort a list",
+        "intent": "code"
+    },
+    {
+        "text": "debug this JavaScript code",
+        "intent": "code"
+    },
+    {
+        "text": "analyze the sales data trends",
+        "intent": "analysis"
+    },
+    {
+        "text": "compare these two approaches",
+        "intent": "analysis"
+    },
+    {
+        "text": "hello how are you",
+        "intent": "general_chat"
+    },
+    {
+        "text": "tell me a joke",
+        "intent": "general_chat"
+    },
+    {
+        "text": "what is the weather today",
+        "intent": "search"
+    },
+    {
+        "text": "refactor this class",
+        "intent": "code"
+    },
+    {
+        "text": "summarize this document",
+        "intent": "analysis"
+    },
+    {
+        "text": "thanks for your help",
+        "intent": "general_chat"
+    }
+]
