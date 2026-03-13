@@ -1,0 +1,14 @@
+{
+  "name": "assist.ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agentic AI assistant platform with local model inference, multi-step reasoning, and tool use",
+  "scripts": {
+    "dev:web": "cd assistai-web && npm run dev",
+    "dev:model": "cd assistai-model && npm run dev",
+    "build:web": "cd assistai-web && npm run build",
+    "build:model": "cd assistai-model && npm run build",
+    "setup:ollama": "bash scripts/setup-ollama.sh",
+    "install:all": "cd assistai-web && npm install && cd ../assistai-model && npm install"
+  }
+}

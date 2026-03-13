@@ -1,0 +1,45 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Java / Gradle
+assistai-backend/build/
+assistai-backend/.gradle/
+assistai-backend/bin/
+*.class
+*.jar
+*.war
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# SQLite
+*.db
+*.sqlite
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorFlow
+assistai-model/src/tensorflow/models/*/weights.*
+*.tflite
+
+# Logs
+*.log
+logs/
