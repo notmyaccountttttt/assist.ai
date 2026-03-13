@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: assistai-backend
+
+  datasource:
+    url: jdbc:sqlite:./data/assistai.db
+    driver-class-name: org.sqlite.JDBC
+
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  port: 8080
+
+# Application config
+assistai:
+  ollama:
+    host: ${OLLAMA_HOST:http://localhost:11434}
+  model:
+    api-url: ${MODEL_API_URL:http://localhost:3001}
+    llm: ${LLM_MODEL:qwen2:1.5b}
+    reasoning: ${LLM_REASONING_MODEL:phi3:mini}
+    embedding: ${EMBEDDING_MODEL:nomic-embed-text}
